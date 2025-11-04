@@ -1,0 +1,7 @@
+services:
+  crackmapexec:
+    image: stevehendrikse/crackmapexec:1.0.0 
+    volumes:
+      - './working:/working:cached'
+    stdin_open: true
+    command: bash
