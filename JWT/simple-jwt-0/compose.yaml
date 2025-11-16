@@ -1,0 +1,7 @@
+services:
+  jwt-0:
+    image: simple-jwt-0:latest
+    ports:
+      - 80:8080
+    expose:
+      - 80
