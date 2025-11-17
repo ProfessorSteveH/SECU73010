@@ -9,8 +9,6 @@ services:
       CLIENT_REDIRECT_URI: "http://${IPADDR}/callback"
       CLIENT_SECRET: "demo-secret"
       JWT_SECRET: "supersecretkey"
-    volumes:
-      - .:/app
 
   resource_api:
     image: simple-oauth2-0:latest
@@ -20,8 +18,6 @@ services:
       - "8001:8001"
     environment:
       JWT_SECRET: "supersecretkey"
-    volumes:
-      - .:/app
 
   client_app:
     image: simple-oauth2-0:latest
@@ -35,5 +31,3 @@ services:
       AUTH_SERVER: "http://${IPADDR}:8000"
       REDIRECT_URI: "http://${IPADDR}/callback"
       RESOURCE_URI: "http://${IPADDR}:8001/profile"
-    volumes:
-      - .:/app
