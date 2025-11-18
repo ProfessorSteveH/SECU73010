@@ -1,6 +1,6 @@
 services:
-  jwt-8:
-    image: simple-jwt-8:latest
+  jwt-9:
+    image: simple-jwt-9:latest
     ports:
       - 80:8080
     expose:
