@@ -1,0 +1,12 @@
+Set-ADUser -Identity "barbara" -PasswordNeverExpires $true
+Set-ADUser -Identity "daniel" -PasswordNeverExpires $true
+Set-ADUser -Identity "emily" -PasswordNeverExpires $true
+Set-ADUser -Identity "emma" -PasswordNeverExpires $true
+Set-ADUser -Identity "ethan" -PasswordNeverExpires $true
+Set-ADUser -Identity "isabella" -PasswordNeverExpires $true
+Set-ADUser -Identity "jacob" -PasswordNeverExpires $true
+Set-ADUser -Identity "james" -PasswordNeverExpires $true
+Set-ADUser -Identity "jessica" -PasswordNeverExpires $true
+Set-ADUser -Identity "liam" -PasswordNeverExpires $true
+Set-ADUser -Identity "http_svc" -PasswordNeverExpires $true
+Set-ADUser -Identity "sql_svc" -PasswordNeverExpires $true
