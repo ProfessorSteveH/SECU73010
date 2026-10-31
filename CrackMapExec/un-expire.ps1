@@ -8,5 +8,10 @@ Set-ADUser -Identity "jacob" -PasswordNeverExpires $true
 Set-ADUser -Identity "james" -PasswordNeverExpires $true
 Set-ADUser -Identity "jessica" -PasswordNeverExpires $true
 Set-ADUser -Identity "liam" -PasswordNeverExpires $true
+Set-ADUser -Identity "margaret" -PasswordNeverExpires $true
+Set-ADUser -Identity "jennifer" -PasswordNeverExpires $true
+Set-ADUser -Identity "linda" -PasswordNeverExpires $true
+Set-ADUser -Identity "william" -PasswordNeverExpires $true
+Set-ADUser -Identity "tracy" -PasswordNeverExpires $true
 Set-ADUser -Identity "http_svc" -PasswordNeverExpires $true
 Set-ADUser -Identity "sql_svc" -PasswordNeverExpires $true
